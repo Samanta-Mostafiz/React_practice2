@@ -1,3 +1,4 @@
+
 .App {
   text-align: center;
 }
@@ -35,4 +36,23 @@
   to {
     transform: rotate(360deg);
   }
+}
+nav{
+  height: 10vh;
+  background-color: rgb(66, 63, 63);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.nav-link{
+  color: antiquewhite;
+  margin: 1rem;
+  font-weight: bold;
+  text-decoration: none;
+}
+.nav-link:hover{
+  color: red;
+}
+.nav-link.active{
+  color: yellow;
 }
